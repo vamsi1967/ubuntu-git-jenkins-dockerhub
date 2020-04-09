@@ -1,0 +1,10 @@
+FROM ubuntu
+#FROM scratch
+MAINTAINER Vamshi.Tirunagari
+#CMD["date"]
+RUN apt-get update
+#RUN apt-get install -y nginx
+#ADD index.html /usr/share/nginx/html/
+#ENTRYPOINT ["/usr/sbin/nginx", "-g" , "deamon off;"]
+#EXPOSE 80
+
