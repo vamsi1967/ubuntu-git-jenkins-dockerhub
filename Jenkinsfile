@@ -1,7 +1,7 @@
 pipeline {
 environment {
     registry = "vamsi1967/jenkinsintegration"
-    registryCredentials = "docker-hub"
+    registryCredentials = "dockerhub1"
   }
 agents any
 
