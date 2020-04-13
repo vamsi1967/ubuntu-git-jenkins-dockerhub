@@ -4,7 +4,7 @@ environment {
     registryCredentials = "docker"
     dockerImage = ''
   }
-agents any
+agent any
 
 stages {
      
