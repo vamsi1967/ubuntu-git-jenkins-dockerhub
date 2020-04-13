@@ -17,12 +17,14 @@ stages {
           }
       stage('Deploy Image') {
        steps{
+           script{
            docker.withRegistry('', registryCredentials) {
         
              dockerImage.push()
-               }
+                   }
+                }
              }
-           }
+         }
      }
   }   
 
